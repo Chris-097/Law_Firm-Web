@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px){ 
+    .card__container{
+        display: block;
+    }
+    .nav__top{
+        height: 8rem;
+    }
+    .nav__container{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .nav__content{
+        display: block; 
+     }
+     .nav__content > div{
+        border: none; 
+     }
+     .caption__container{
+        display: block;
+    }
+    .firm__banner__container{
+        width: 100%;
+        height: 12rem;
+        left: 0;
+    }
+    .firm__banner__container > h1{
+        font-size: 1.6rem;
+    }
+    .firm__content > img{
+        width: 15rem;
+    }
+    .firm__banner__container{
+        width: 100%;
+        height: 12rem;
+        left: 0;
+    }
+    .firm__banner__container > h1{
+        font-size: 1.6rem;
+    }
+    .message__container input{
+        width: 25rem;
+     }
+     .message__container textarea{
+        width: 25rem;
+        height: 12rem;
+    }
+    .apply__content p > a{
+        margin: 0;
+        font-size: .6rem;
+    }
+    .apply__content > h1{
+        font-size: 1.2rem;
+    }
+    .pop-content{
+        width: 20rem;
+        height: 15rem;
+        left: 5rem;
+    }
+    .e__popup_img{
+        height: 10rem;
+        margin-top: 1rem;
+    }
+    .e__popup_content{
+        top: 8%;
+    }
+    .popup__target{
+        padding-top: .5rem;
+    }
+}
+   
+@media only screen and (max-width: 450px){
+    .message__container input{
+        width: 18rem;
+     }
+     .message__container textarea{
+        width: 15rem;
+        height: 12rem;
+    }
+    .pop-content{
+        width: 15rem;
+        left: 4rem;
+    }
+    }
+@media only screen and (max-width: 350px){ 
+    body{
+        display: none;
+    }
+}
+  

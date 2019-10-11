@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'lato', sans-serif;
+    line-height: 1.5;
+    background: var(--light-color);
+    position: relative;
+    cursor: pointer;
+}
+a{
+    color: #333;
+    font-size: .8rem;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+p{
+    margin: .5rem 0;
+}
+img{
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'staatliches' cursive;
+    margin-bottom: .555rem;
+    line-height: 1.3;
+}
+h1{font-size: 2.8rem};
+h2{font-size: 2rem};
+h3{font-size: 1.8rem};
+h4{font-size: 1.6rem};
+h5{font-size: 1.4rem};
+h6{font-size: 1rem};

@@ -1,0 +1,35 @@
+.btn__light{ background: var(--light-color)}
+.btn__primary{ background: var(--primary-color)}
+.btn__secondary{ background: var(--secondary-color)}
+.btn{
+    height: 8vh;
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+    margin: 0 .5rem;
+    position: relative;
+    opacity: 1;
+}
+.btn__1{
+    height: 8vh;
+    border: none;
+    background: var(--secondary-color);
+    color: #fff;
+    padding: 0.5rem 1.5rem;
+}
+.btn__block{
+    height: 6vh;
+    border: none;
+    background: var(--secondary-color);
+    color: #fff;
+}
+/*.btn__block{
+     display: inline-block;
+     width: 100%;
+     text-align: center;
+}*/
+.btn,
+.btn__1:hover{
+    opacity: .7;
+}

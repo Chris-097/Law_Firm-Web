@@ -1,0 +1,58 @@
+/*
+@ padding utilities
+*/
+.py-1{ padding: 1rem 0}
+.py-2{ padding: 1.5rem 0}
+.py-3{ padding: 3rem 0} 
+.p-1{ padding: 1rem}
+.p-2{ padding: 1.5rem}
+.p-3{ padding: 3rem}
+.p-top{ padding-top: 4rem}
+.p-btn{ padding-bottom: 2rem}
+/* end of paddding utilities */
+/*
+@ marging utilities
+*/
+.mg-1{ margin: .5rem}
+.mg-2{ margin: 1rem}
+.mg-top{ margin-top: 4rem}
+.font__size_14{
+    font-size: 1.4rem;
+}
+/* 
+end of margin utilities
+*/
+.container{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 0 2rem;
+}
+.category{
+    text-transform: uppercase;
+    padding: 0.4rem 0.6rem;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+}
+.text__center{
+    text-align: center;
+}
+i{
+    margin: 0 .2rem;
+}
+.target{
+    font-size: 1.2rem;
+    color: var(--light-color);
+}
+.target:hover{
+    color: var(--primary-color);
+}
+.l-heading{
+    font-size: 2rem;
+}
+.about__card{
+    background: #fff;
+    padding: 1rem;
+}
+.text__end{
+    text-align: end;
+}

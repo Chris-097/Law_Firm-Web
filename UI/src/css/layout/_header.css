@@ -1,0 +1,85 @@
+.nav__top{
+    height: 50px;
+    background: #fff;
+    position: relative;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav__content{
+    margin: 1rem;
+    display: flex;
+}
+.nav__content > div{
+    font-size: .9rem;
+    margin: 0 .5rem;
+    padding: 0 0.5rem;
+    border-right: 2px solid var(--dark-color);
+}
+#main__nav .container{
+    display: grid;
+    grid-template-columns: 3fr 5fr 3fr 2fr;
+    padding: 1rem;
+    align-items: center;
+}
+#main__nav{
+    background: var(--primary-color);
+    position: sticky !important;
+    top: 0;
+    z-index: 2;
+}
+#main__nav .logo{
+    font-family: 'lobster', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    color: #333;
+    display: inline-block;
+    padding: 1rem;
+    position: relative;
+}
+.navbar ul li a{
+    color: #333;
+    text-decoration: none;
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar ul li:hover{
+    cursor: pointer;
+    background: var(--dark-color);
+    color: #fff;
+}
+.navbar ul li:hover a {
+    color: #fff;
+}
+.navbar ul li:hover ul{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 200px;
+    margin-top: 1rem;
+}
+.navbar ul li:hover ul li{
+    display: block;
+    background: #fff;
+}
+.navbar ul li:hover ul li a{
+    color: #333;
+}
+.navbar ul li:hover ul li:hover{
+    background: var(--primary-color);
+}
+.navbar ul li:hover ul li:hover a{
+    color: #fff;
+}
+.callback{
+    font-family: 'lobster', sans-serif;
+    font-size: .8rem;
+    font-weight: bold;
+}

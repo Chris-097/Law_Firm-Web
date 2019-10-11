@@ -1,0 +1,45 @@
+ #firm__banner >img{
+    height: 60vh;
+    position: relative;
+}
+.firm__banner__container{
+    width: 30rem;
+    height: 12rem;
+    position: absolute;
+    left: 5rem;
+    top: 25vh;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.226);
+}
+#firm__card{
+    width: 100%;
+     background: #fff;
+     padding: 2rem 0;
+ }
+.firm__container{
+    width: 40rem;
+    height: 30rem;
+    margin: 2rem auto;
+    text-align: center;
+    background: var(--primary-color);
+    color: #fff;
+}
+.firm__content > img{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 2.5rem;
+}
+.firm__article{
+    margin: 2rem;
+}
+.listed{
+    list-style: disc;
+    margin: 0 2rem;
+}
+.eContact{
+    width: 30rem;
+    height: 12rem;
+    background: var(--secondary-color);
+    padding: 1.5rem;
+    margin: 5rem auto;
+}

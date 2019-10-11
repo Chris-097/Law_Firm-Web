@@ -1,0 +1,36 @@
+.banner__animate__x{
+    animation-name: moveInLeft;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+}
+    @keyframes moveInLeft {
+        0%{
+            opacity: 0;
+            transform: translateX(-15rem);
+        }
+        80%{
+            transform: translateX(10rem);
+        }
+        100%{
+            opacity: 1;
+            transform: translate(0)
+        }
+    }
+    .banner__animate__y{
+        transform: translate(7rem);
+        animation: banner__animate__y  3s forwards ease-in;
+    }
+    @keyframes banner__animate__y {
+        to{
+            transform: translate(0);
+        }
+    }
+    .btn__animate__y{
+        transform: translateY(4rem);
+        animation: btn__animate__y  3s forwards ease-in;
+    }
+    @keyframes btn__animate__y {
+        to{
+            transform: translateY(0);
+        }
+    }

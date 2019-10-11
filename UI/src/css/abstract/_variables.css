@@ -1,0 +1,19 @@
+:root{
+    --primary-color: #c72727;
+    --secondary-color: #f99500;
+    --light-color: #f3f3f3;
+    --dark-color: #333;
+    --max-width: 1200px;
+}
+.category{
+    --buy-color: #f99500;
+    --end-color: #a66bbe;
+    --tech-color: #009cff;
+    --price-color: #c72727;
+}
+.color__primary{
+    color: var(--primary-color);
+}
+.color__light{
+    color: var(--light-color);
+}

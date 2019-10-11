@@ -1,0 +1,18 @@
+.apply__page{
+    background: var(--primary-color);
+    padding: 1rem 0;
+}
+.apply__content{
+    background: var(--dark-color);
+    color: #fff;
+    padding: 1rem;
+}
+.apply__link{
+    display: flex;
+    margin-top: 1rem;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.apply__alert{
+    padding: 3rem 1rem;
+}

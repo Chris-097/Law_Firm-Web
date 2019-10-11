@@ -1,0 +1,39 @@
+/*
+@ styling from abstract folder 
+*/
+@import 'abstract/_function.css';
+@import 'abstract/_variables.css';
+/*
+@ styling from base folder 
+*/
+@import 'base/_base.css';
+@import 'base/_anination.css';
+@import 'base/_topography.css';
+@import 'base/_utilities.css';
+/*
+@ styling from component folder 
+*/
+@import 'components/_button.css';
+@import 'components/_card.css';
+@import 'components/_composition.css';
+@import 'components/_story.css';
+/*
+@ styling from layout folder 
+*/
+@import 'layout/_grid.css';
+@import 'layout/_header.css';
+@import 'layout/_footer.css';
+/*
+@ styling from pages folder 
+*/
+@import 'pages/_home.css';
+@import 'pages/_about.css';
+@import 'pages/_contact.css';
+@import 'pages/_firm.css';
+@import 'pages/_vacancy.css';
+/*
+@ responsive from mobile folder
+*/
+@import 'mobile/_mobile.css';
+@import 'mobile/_tablet.css';
+@import 'mobile/_landscale.css';
